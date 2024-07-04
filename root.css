@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+    --black: #0C0418;
+    --white: #FEFFFF;
+    --white1: #feffffcc;
+    --violet: #BA0BF9;
+    --blue: #5E4AF1;
+    --font:  "Anton", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.violet {
+    color: violet;
+    font-size: 10px;
+}
+
+.blue {
+    color: blue;
+    font-size: 10px;
+}
+
+
+
+@media screen and (max-width:930px) and (min-width:200px) {
+    .banner-headline h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .banner-image-container {
+        flex-direction: column;
+        border: none;
+    }
+
+    .banner-headline {
+        text-align: center;
+    }
+
+    .banner-desc {
+        text-align: center;
+    }
+
+    .click{
+        order: 2;
+        
+    }
+
+    .click span {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    
+
+    .img-container {
+        order: 1;
+    }
+    
+    .img-container img {
+        width: 100%;
+
+    }
+
+    .project-details {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project {
+        border-top: 1px solid var(--white);
+        border-bottom: 1px solid var(--white);
+    }
+
+    .project h2 {
+        font-size: 80px;
+    }
+
+    .skill {
+        flex-direction: column;
+    }
+
+    .expert img {
+        height: 50%;
+    }
+
+    .project-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .ui-blog {
+        flex-direction: column;
+    }
+
+    .ui {
+        margin-bottom: 30px;
+        border-bottom: 1px solid var(--white);
+        padding: 30px 0;
+    }
+
+    .test-container {
+        flex-direction: column;
+    }
+
+    .top-img,
+    .btm-img {
+        width: 100%;
+    }
+
+    .left-side {
+        width: 100%;
+    }
+
+    .top,
+    .bottom,
+    .right-side {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .top-desc,
+    .btm-desc {
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+    .right-desc {
+        padding: 20px 15px;
+    }
+
+    .btm-img {
+        order: 1;
+    }
+
+    .btm-desc {
+        order: 2;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .form {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 3rem 0 0;
+        flex-direction: column;
+    }
+
+    .footer h2 {
+        text-align: center;
+    }
+    .contact {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .icon1 {
+        justify-content: center;
+    }
+
+    .way {
+        margin-top: 20px;
+    }
+
+    form {
+        width: 90%;
+    }
+  
+}
